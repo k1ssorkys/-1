@@ -22,6 +22,7 @@ Vue.component('product-tabs', {
         reviews: { // Пропс для отзывов о продукте
             type: Array,
             required: false
+
         },
         shippingCost: { // Пропс для стоимости доставки
             type: String,
